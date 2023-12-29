@@ -1,4 +1,4 @@
-let todoList=['anshu','anss'];
+let todoList=[];
 window.onload=function(){
    const storedList=localStorage.getItem('todoList');
    if(storedList){
